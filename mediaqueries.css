@@ -55,6 +55,7 @@
   }
   /* Fix article container for mobile */
   .article-container {
+    display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
   }
