@@ -150,12 +150,24 @@ a:hover {
 }
 
 /* SECTIONS */
+/* Update the section rule */
 section {
   padding-top: 4vh;
-  height: 96vh;
+  min-height: 96vh; /* Changed from height to min-height */
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+}
+
+/* Add spacing between sections */
+section:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+/* Add media query for larger screens */
+@media screen and (min-width: 1200px) {
+  section {
+    padding: 6vh 0;
+  }
 }
 
 .section-container {
