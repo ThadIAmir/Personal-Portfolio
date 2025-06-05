@@ -30,5 +30,4 @@ This project is licensed under the **MIT License**.
 Feel free to reach out for collaboration or feedback!
 - **Email**: [miramir1382@gmail.com](mailto:miramir1382@gmail.com)
 - **LinkedIn**: [#](https://www.linkedin.com/in/#)
-- **Telegram**: [@Amir_hn000](https://t.me/Amir_hn000)
 
