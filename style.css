@@ -256,3 +256,32 @@ footer a:hover {
 .arrow:hover {
   transform: translateY(-5px);
 }
+
+/* -------------------------------------*/
+
+/* Fix for about-containers on desktop */
+.about-containers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+/* Fix for article container layout on desktop */
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2-column layout */
+  gap: 1.5rem;
+}
+
+/* Fix for profile layout on desktop */
+#profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  height: 90vh;
+  padding: 2rem;
+}
+
